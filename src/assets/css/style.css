@@ -7,7 +7,7 @@ html {
   min-height: 100%; }
 
 body {
-  padding-top: 2rem;
+  padding-top: 4rem;
   /* Move down content because we have a fixed navbar that is 50px tall */
   margin-bottom: 60px;
   /* Margin bottom by footer height */ }
@@ -30,5 +30,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif; }
+
+/* ==========================
+   Nav Styles
+========================== */
+.navbar-brand {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+li.dropdown:last-child .dropdown-menu {
+  right: 0;
+  left: auto; }
 
 /*# sourceMappingURL=style.css.map */
